@@ -1,0 +1,404 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.container{
+  display: flex start;
+  width: 100%;
+  background-color: #1A1851;
+}
+.nav-link{
+  font-family: montserrat,Sans-serif;;
+  font-size: 14px;
+  width: 90%;
+  background-color: #1A1851;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container ul li{
+  margin: 15px 5px;
+}
+.icon li{
+  margin: 1px;
+  padding: 5px;
+}
+.icon ul li{
+  margin: 15px 0px;
+}
+.container ul{
+ text-align: center;
+ margin-left: 10px;
+}
+.container ul li{
+  display: inline-flex;
+  padding: 15x 5px;
+}
+.container ul li a{
+  text-decoration: none;
+  color: white;
+}
+.container ul li :hover{
+background-color: pink;
+}
+.nav-link2{
+  display: inline-flex;
+  justify-content: center;
+}
+.container2{
+  width: 100%;
+}
+.image{
+  margin: 0px;
+  max-width: 90%;
+  display: flex;
+  justify-content: center;
+}
+.image li{
+  list-style-type: none;
+}
+.text{
+  color: black;
+  font-family: montserrat,Sans-serif;;
+}
+.text ul{
+  height: 100%;
+  list-style: none;
+  display: inline-flex;
+}
+.text li{
+  font-size: 16px;
+  margin: 55px 10px;
+}
+.image ul li{
+  display: flex;
+  justify-content: space-between;
+}
+.image ul li a{
+  text-decoration: none;
+  display: flex;
+  margin-left: 0;
+  padding-right: 5px;
+  color: black;
+}
+.sub-menu1{
+  display: none;
+}
+.text ul li:hover .sub-menu1{
+  display: block;
+  position: absolute;
+}
+.sub-menu2{
+  display: none;
+}
+.text ul li:hover .sub-menu2{
+  display: block;
+  position: absolute;
+}
+.sub-menu3{
+  display: none;
+}
+.text ul li:hover .sub-menu3{
+  display: block;
+  position: absolute;
+}
+.sub-menu4{
+  display: none;
+}
+.text ul li:hover .sub-menu4{
+  display: block;
+  position: absolute;
+}
+.sub-menu5{
+  display: none;
+}
+.text ul li:hover .sub-menu5{
+  display: block;
+  position: absolute;
+}
+.sub-menu6{
+  display: none;
+}
+.text ul li:hover .sub-menu6{
+  display: block;
+  position: absolute;
+}
+.video li{
+  display: flex;
+  justify-content: center;
+}
+.sponsored li{
+  display: flex;
+  justify-content: center;
+}
+.aboutustp{
+  color: white;
+  box-sizing: border-box;
+  width: 95%;
+  background-color: #1A1851;
+  display: flex;
+  justify-content: right;
+}
+.aboutustp ul{
+  font-size: 35px;
+  padding: 15px;
+}
+.ustap{
+  list-style-type: none;
+}
+.learning{
+  font-size: 20px;
+}
+.learning li{
+  list-style-type: none;
+  margin: 20px;
+  padding: 3px;
+  font-family: 'Popin'sans-serif;
+}
+.more{
+  color: white;
+  box-sizing: border-box;
+  width: 95%;
+  background-color: #1A1851;
+  display: flex;
+  justify-content: right;
+}
+.more li{
+  list-style-type: none;
+  margin: 10px;
+  padding: 3px;
+  font-family: 'Popin'sans-serif;
+}
+.more ul{ 
+  font-size: 16px;
+  padding: 3px;
+}
+.more ul li{
+  color: orange;
+}
+.effects{
+  display: flex;
+  justify-content: center;
+}
+.card{
+  background: white;
+  width: 400px;
+  height: 450px;
+  margin: 5px;
+  border-radius: 15px 15px 0 0;
+  font-size: 14px;
+}
+.card-image{
+  height: 340px;
+  margin-bottom: 10px;
+  background-size: cover;
+}
+.pic1{
+  background-image: url('panaon1.jpeg');
+}
+.pic2{
+  background-image: url('panaon2.jpeg');
+}
+.pic3{
+  background-image: url('panaon3.jpeg');
+}
+.pic4{
+  background-image: url('panaon4.jpeg');
+}
+.effects1{
+  display: flex;
+  justify-content: center;
+}
+.card1{
+  width: 400px;
+  height: 450px;
+  margin: 5px;
+  border-radius: 15px 15px 0 0;
+}
+.card-image1{
+  height: 300px;
+  margin-bottom: 10px;
+  background-size: cover;
+}
+.pic5{
+  background-image: url('panaon5.jpeg');
+}
+.pic6{
+  background-image: url('panaon6.jpeg');
+}
+.pic7{
+  background-image: url('panaon7.jpeg');
+}
+.pic8{
+  background-image: url('panaon8.jpeg');
+}
+.previous{
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  width: 100%;
+}
+.previous ul{
+  display: flex;
+  justify-content: center ;
+  margin: 10px 0px;
+  padding-left: 20px 0;
+}
+.previous1 li{
+  display: flex;
+}
+.previous1{
+  width: 85%;
+  background-color: #1A1851;
+  border-radius: 10px;
+}
+.previous ul li{
+  list-style: none;
+  color: orange;
+}
+.icon1{
+  display: flex;
+}
+.media{
+  color: #1A1851;
+  font-size: 40px;
+  margin-top: 40px;
+}
+.media1{
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.reels{
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  margin-bottom: 40px;
+}
+.reels ul{
+  display: inline-flex;
+}
+.reels li{
+  font-size: 20px;
+  padding: 10px;
+  margin-left: 150px;
+  background-color: #1A1851;
+  border-radius: 10px;
+  color: orange;
+}
+.corner{
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  color: white;
+}
+.corner1{
+  box-sizing: border-box;
+  width: 90%;
+  background-color: #1A1851;
+  border-radius: 10px;
+}
+.corner1 li{
+  margin: 10px;
+  list-style-type: none;
+}
+.corner1 ul{
+  display: flex;
+  justify-content: right;
+}
+.inspired{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+  list-style-type: none;
+}
+.campuses{
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  color: #1A1851;
+}
+.campuses ul{
+  list-style-type: none;
+}
+.campuses li{
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+.campuses1{
+  margin-bottom: 20px;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+.campuses2{
+  box-sizing: border-box;
+  width: 90%;
+  background-color: #1A1851 ;
+  border-radius: 10px;
+}
+.campuses2 li{
+  margin: 5px;
+  list-style: none;
+}
+.campuses2 ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: right;
+  margin-right: 5px;
+}
+.campus{
+  width: 90%;
+}
+.campus ul{
+  justify-content: center;
+}
+.campus li{
+  list-style-type: none;
+  margin: 0px 10px 0px 100px;
+  justify-items: center;
+}
+.campuses5{
+display: flex;
+justify-content: center;
+background-color: white;
+font-size: 25px;
+color: white;
+}
+.campuses5 ul{
+  list-style-type: none;
+}
+.campuses6{
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  width: 90%;
+  background-color: #1A1851;
+  border-radius: 5px;
+}
+.campuses6 li{
+margin: 10px;
+}
+.campuses6 ul{
+  display: flex;
+  justify-content: right;
+}
+.bov{
+  align-items: center;
+  justify-content: center;
+}
+.bov li{
+  list-style: none;
+  align-items: center;
+  margin: 10px;
+}
+.link2{
+  margin-bottom: 0px;
+}
+.link1{
+  margin-top: 0px;
+}
